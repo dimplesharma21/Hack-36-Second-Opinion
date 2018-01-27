@@ -2027,7 +2027,7 @@ ul.icons {
     width: 100%;
     z-index: 1; }
   #banner:after {
-    background: linear-gradient(135deg, #2d82d8 40%, #ffffff 74%);
+    background: linear-gradient(135deg, #01468c 40%, #ffffff 90%);
     content: ' ';
     display: block;
     height: 100%;
@@ -2665,7 +2665,7 @@ body {
     #heading .testimonials .content .credit strong {
       color: #ce1b28; }
   #heading:before {
-    background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);
+    background: linear-gradient(155deg, #01468c 50%, #f7fbff 84%);
     content: ' ';
     display: block;
     height: 100%;
@@ -2843,3 +2843,19 @@ body.is-menu-visible #menu {
   transform: translateX(0);
   box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
   visibility: visible; }
+
+  #cardio {
+    height: 300px;
+    width: 300px;
+  }
+
+  #neuro {
+    height: 300px;
+    width: 300px;
+  }
+
+  #nephro {
+    height: 300px;
+    width: 300px;
+  }
+
