@@ -856,6 +856,20 @@ table.alt tbody tr td {
         .testimonials .content .author .image img {
           border-radius: 100%;
           max-width: 100%; }
+/*change in blockquote img for forms*/
+            section .author .image {
+        margin-right: 2rem;
+        width: 20%; }
+        section .author .image img {
+          border-radius: 100%;
+          max-width: 100%; }
+
+          .adj p{
+            padding-top: 1.8rem;
+          }
+
+
+/*change ends*/
     .testimonials .content .credit {
       font-size: 0.75rem; }
     .testimonials .content p:last-child {
