@@ -371,6 +371,7 @@ input[type="email"],
 input[type="tel"],
 input[type="search"],
 input[type="url"],
+input[type="number"],
 select,
 textarea {
   -moz-appearance: none;
@@ -392,6 +393,7 @@ textarea {
   input[type="tel"]:invalid,
   input[type="search"]:invalid,
   input[type="url"]:invalid,
+  input[type="number"]:invalid,
   select:invalid,
   textarea:invalid {
     box-shadow: none; }
@@ -403,6 +405,7 @@ label {
   margin: 0 0 1rem 0; }
 
 input[type="text"],
+input[type="number"],
 input[type="password"],
 input[type="email"],
 input[type="tel"],
@@ -494,6 +497,7 @@ label {
   color: #555555; }
 
 input[type="text"],
+input[type="number"],
 input[type="password"],
 input[type="email"],
 input[type="tel"],
@@ -504,6 +508,7 @@ textarea {
   background-color: rgba(0, 0, 0, 0.075);
   border-color: rgba(0, 0, 0, 0.25); }
   input[type="text"]:focus,
+  input[type="number"]:focus,
   input[type="password"]:focus,
   input[type="email"]:focus,
   input[type="tel"]:focus,
@@ -1879,6 +1884,7 @@ ul.icons {
   #banner label {
     color: #ffffff; }
   #banner input[type="text"],
+  #banner input[type="number"],
   #banner input[type="password"],
   #banner input[type="email"],
   #banner input[type="tel"],
@@ -1889,6 +1895,7 @@ ul.icons {
     background-color: rgba(255, 255, 255, 0.075);
     border-color: rgba(255, 255, 255, 0.25); }
     #banner input[type="text"]:focus,
+    #banner input[type="number"]:focus,
     #banner input[type="password"]:focus,
     #banner input[type="email"]:focus,
     #banner input[type="tel"]:focus,
@@ -2123,6 +2130,7 @@ ul.icons {
   #cta label {
     color: #ffffff; }
   #cta input[type="text"],
+  #cta input[type="number"],
   #cta input[type="password"],
   #cta input[type="email"],
   #cta input[type="tel"],
@@ -2133,6 +2141,7 @@ ul.icons {
     background-color: rgba(255, 255, 255, 0.075);
     border-color: rgba(255, 255, 255, 0.25); }
     #cta input[type="text"]:focus,
+    #cta input[type="number"]:focus,
     #cta input[type="password"]:focus,
     #cta input[type="email"]:focus,
     #cta input[type="tel"]:focus,
@@ -2265,6 +2274,7 @@ ul.icons {
   #footer label {
     color: #ffffff; }
   #footer input[type="text"],
+  #footer input[type="number"],
   #footer input[type="password"],
   #footer input[type="email"],
   #footer input[type="tel"],
@@ -2275,6 +2285,7 @@ ul.icons {
     background-color: rgba(255, 255, 255, 0.075);
     border-color: rgba(255, 255, 255, 0.25); }
     #footer input[type="text"]:focus,
+    #footer input[type="number"]:focus,
     #footer input[type="password"]:focus,
     #footer input[type="email"]:focus,
     #footer input[type="tel"]:focus,
@@ -2567,6 +2578,7 @@ body {
   #heading label {
     color: #ffffff; }
   #heading input[type="text"],
+  #heading input[type="number"],
   #heading input[type="password"],
   #heading input[type="email"],
   #heading input[type="tel"],
@@ -2577,6 +2589,7 @@ body {
     background-color: rgba(255, 255, 255, 0.075);
     border-color: rgba(255, 255, 255, 0.25); }
     #heading input[type="text"]:focus,
+    #heading input[type="number"]:focus,
     #heading input[type="password"]:focus,
     #heading input[type="email"]:focus,
     #heading input[type="tel"]:focus,
