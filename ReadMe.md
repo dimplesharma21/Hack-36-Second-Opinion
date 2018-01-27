@@ -1,8 +1,10 @@
+# Hack-36-Second-Opinion
+
 What our portal is about:
 
 a. Generally, when common people consult doctors regarding seroius health issues they are bound to make tough decisions. Such cases include having a surgery, an operation involving heavy costs and risks. 
 b. Many a times these require immediate attention and hence, does not leave patients much choice. It is very difficult for them to consult another doctor on such a short notice. 
-c. To resolve this problem we came up with "Second Opinion" which would enable users to show their reports and other relevant documents to a doctor at our portal in order to seek second medical opinion without any hassels of travelling and waiting, that too within 24 hours. 
+c. To resolve this problem we came up with "Second Opinion" which would enable users to show their reports and other relevant documents to a doctor at our portal in order to seek second medical opinion without any hassles of travelling and waiting, that too within 24 hours. 
 
 Technologies used:
 
