@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    {% load staticfiles %}
+    <title> Submit </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="{%static 'assets/css/main.css' %}" />
+  </head>
+  <body class="is-preload">
+
+    <!-- Header -->
+    <header id="header">
+        <a class="logo" href="index.html">SECOND OPINION</a>
+        <nav>
+          <a href="#menu">MENU</a>
+        </nav>
+      </header>
+
+    <!-- Nav -->
+      <nav id="menu">
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          
+          <li><a href="index.html#aboutus">About Us</a></li>
+          <li><a href="#footer">Contact Us</a></li>
+          <li><a href="">Logout</a></li>
+        </ul>
+      </nav>
+
+
+    <!-- Heading -->
+      <div id="heading" >
+        <h1>Second Opinion</h1>
+      </div>
+
+    <!-- Main -->
+      <section id="main" class="wrapper">
+        <div class="inner">
+          <div class="content">
+
+            <!-- Elements -->
+            <h3>Please fill the following details</h3>
+            <form>
+              <div class="row gtr-uniform">
+                <div class="col-12">
+                  {% if user.is_authenticated %}
+        <a href="{% url 'logout' %}">logout</a>
+      {% else %}
+        <a href="{% url 'login' %}">login</a> / <a href="{% url 'signup' %}">signup</a>
+      {% endif %}
+
+       <main>
+      {% block content %}
+      {% endblock %}
+    </main>
+                </div>
+                
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <div class="inner">
+          <div class="container">
+            <section>
+              <h3>Disclaimer</h3>
+              <p>The second opinion is entirely based on the information and documents provided by the user or patient. The doctor or this platform is not responsible in any case whatsoever as the doctor would be suggesting treatments only according to the details described. The purpose of this portal is only to seek advice from our experts so as to be assured of their on-going treatment plans. The users should comply for second opinion only after consulting a doctor in person.</p>
+            </section>
+            
+            <section>
+              <h4>Contact Us Via:</h4>
+              <ul class="plain">
+                <li><a href="#"><i class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
+                <li><a href="#"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
+                <li><a href="#"><i class="icon fa-instagram">&nbsp;</i>Instagram</a></li>
+                <li><a href="#"><i class="icon fa-github">&nbsp;</i>Github</a></li>
+              </ul>
+            </section>
+            <section>
+              <h4>Contact us at:</h4>
+              <ul class="alt">
+                <li><i class="fa fa-phone" aria-hidden="true"></i> +91-8462000112</li>
+                <li><i class="fa fa-phone-square" aria-hidden="true"></i> 0771-4042576</li>
+                
+              </ul>
+            </section>
+           </div>
+          <div class="copyright">
+            &copy; Untitled. SecondOpinion <a href="#">Second Opinion</a>.
+          </div>
+         
+        </div>
+      </footer>
+
+    <!-- Scripts -->
+      <script src="{%static 'assets/js/jquery.min.js' %}"></script>
+      <script src="{%static 'assets/js/browser.min.js' %}"></script>
+      <script src="{%static 'assets/js/breakpoints.min.js' %}"></script>
+      <script src="{%static 'assets/js/util.js' %}"></script>
+      <script src="{%static 'assets/js/main.js' %}"></script>
+
+  </body>
+</html>
+
