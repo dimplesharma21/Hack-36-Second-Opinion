@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+		{% load staticfiles %}
+		<title>Neurology</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="{% static 'assets/css/main.css' %}" />
+	</head>
+	<body class="is-preload">
+
+		 <!-- Header -->
+		<header id="header">
+				<a class="logo" href="index.html">SECOND OPINION</a>
+				<nav>
+					<a href="#menu">MENU</a>
+				</nav>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					
+					<li><a href="index.html#aboutus">About Us</a></li>
+					<li><a href="#footer">Contact Us</a></li>
+					<li><a href="">Logout</a></li>	
+				</ul>
+			</nav>
+
+
+		<!-- Heading -->
+			<div id="heading" >
+				<h1>Neurology</h1>
+			</div>
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="inner">
+					<div class="content">
+						<header>
+							<h2 style="text-align: center;">Our Expert</h2>
+						</header>
+						<center><img id= "neuro" src="{% static 'images/d3.jpg' %}"></center>
+						<p>The neurology expert of our portal is Dr. Sandeep Dave. He has pursued his MBBS and MD from JNM Medical College (Raipur). He has been practicing for 27 years now and has served in many hospitals throughout his career. As of now, he is a retired neurologist and was last associated with Ram Krishna Care Hospital, Raipur. He has always been very understanding towards his patients and has dealt with many complex cases. His simplicity and grounded nature makes him the go to person in the field of neurology. </p>
+						<hr />
+						<h3 style="text-align: center;">Instructions for second opinion</h3>
+						<p>The users strictly need to follow the given instructions in order to seek second opinion. </p>
+						<ul>
+
+							<li>
+								The users are required to uplaod the necessary files/documents on Google Drive or Dropbox and are requested to make the files sharable so as to paste the link in the space given.
+							</li>
+
+							<li>
+								The users are required to upload the documents in the described format (pdf/jpeg/dicom) only.
+							</li>
+
+							<li>
+								A user can post queries in multiple departments i.e a particular user can seek second opinion in more than single department.
+								
+							</li>
+							<li>
+								Users must have patience and should wait until the doctor replies to their query. The doctor would in any case reply to you within 24 hours.
+								
+							</li>
+							<li>
+								If you find difficulty in uploading or sharing of files then you may refer to these links for guidance: <a href="https://www.guidingtech.com/11203/share-google-drive-files-or-documents/">for Google Drive</a> and <a href="https://www.dropbox.com/guide/business/set-up/save-your-work-in-dropbox">for Dropbox.</a>
+								
+							</li>
+
+						</ul>
+
+						<div>
+							<center><a href="neurologyform.html"><button class="btn btn-default btn-medium">ASK FOR SECOND OPINION</button></a></center>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+
+            <!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<div class="content">
+						<section>
+							<h3>Disclaimer</h3>
+							<p>The second opinion is entirely based on the information and documents provided by the user or patient. The doctor or this platform is not responsible in any case whatsoever as the doctor would be suggesting treatments only according to the details described. The purpose of this portal is only to seek advice from our experts so as to be assured of their on-going treatment plans. The users should comply for second opinion only after consulting a doctor in person.</p>
+						</section>
+						
+						<section>
+							<h4>Contact Us Via:</h4>
+							<ul class="plain">
+								<li><a href="#"><i class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
+								<li><a href="#"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
+								<li><a href="#"><i class="icon fa-instagram">&nbsp;</i>Instagram</a></li>
+								<li><a href="#"><i class="icon fa-google-plus">&nbsp;</i>Google Plus</a></li>
+							</ul>
+						</section>
+						<section>
+							<h4>Contact us at:</h4>
+							<ul class="alt">
+								<li><i class="fa fa-phone" aria-hidden="true"></i> +91-8462000112</li>
+								<li><i class="fa fa-phone-square" aria-hidden="true"></i> 0771-4042576</li>
+								
+							</ul>
+						</section>
+					</div>
+					<div class="copyright">
+						&copy; Untitled. SecondOpinion <a href="#">Second Opinion</a>.
+					</div>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="{% static 'assets/js/jquery.min.js' %}"></script>
+			<script src="{% static 'assets/js/browser.min.js' %}"></script>
+			<script src="{% static 'assets/js/breakpoints.min.js' %}"></script>
+			<script src="{% static 'assets/js/util.js' %}"></script>
+			<script src="{% static 'assets/js/main.js' %}"></script>
+
+	</body>
+</html>
